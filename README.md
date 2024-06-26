@@ -19,6 +19,6 @@ The assets are currently from the [YouTube tutorial](https://www.youtube.com/wat
 2. Clone the project with:
    ```bash
    git clone https://github.com/saemyyy/pokemon-quest.git
-Open Godot.
-Import the project and hit the Play button on the top right.
-As soon as I gain more experience as a game developer, I will create an executable file that can be used by everyone!
+3. Open Godot.
+4. Import the project and hit the Play button on the top right.
+**As soon as I gain more experience as a game developer, I will create an executable file that can be used by everyone!**
