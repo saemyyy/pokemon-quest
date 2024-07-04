@@ -1,7 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://cptpocibn5vns"]
+[gd_scene load_steps=3 format=3 uid="uid://cptpocibn5vns"]
 
 [ext_resource type="PackedScene" uid="uid://bbj7jraknb245" path="res://player.tscn" id="1_5qrlg"]
+
+[sub_resource type="TileSet" id="TileSet_6ly5t"]
+terrain_set_0/mode = 0
 
 [node name="Map" type="Node2D"]
 
 [node name="Player" parent="." instance=ExtResource("1_5qrlg")]
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_6ly5t")
+collision_animatable = true
+collision_visibility_mode = 1
+navigation_visibility_mode = 1
+format = 2
